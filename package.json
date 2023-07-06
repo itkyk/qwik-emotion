@@ -1,0 +1,21 @@
+{
+  "name": "qwik-emotion",
+  "version": "0.0.1",
+  "description": "This is a component library that outputs emotionJS with Qwik.",
+  "main": "./bin/index.js",
+  "types": "./bin/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["qwik", "emotion", "style"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/server": "^11.11.0"
+  },
+  "devDependencies": {
+    "@builder.io/qwik": "^1.2.2",
+    "typescript": "^5.1.6"
+  }
+}
