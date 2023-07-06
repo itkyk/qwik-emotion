@@ -11,5 +11,5 @@ interface RootComponentProps {
     };
     [index: string | number | symbol]: any;
 }
-declare const createEmotionRoot: (Root: Component<RootComponentProps>, options: RenderToStringOptions, props: Record<string | symbol | number, any>) => Promise<import("@builder.io/qwik/jsx-runtime").JSX.Element>;
+declare const createEmotionRoot: (Root: Component<RootComponentProps>, options: RenderToStringOptions, props: Record<string | symbol | number, any>) => Promise<Component<{}>>;
 export default createEmotionRoot;
