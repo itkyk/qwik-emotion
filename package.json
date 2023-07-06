@@ -2,7 +2,7 @@
   "name": "qwik-emotion",
   "version": "0.0.1",
   "description": "This is a component library that outputs emotionJS with Qwik.",
-  "main": "./bin/index.js",
+  "main": "./bin/index.jsx",
   "types": "./bin/index.d.ts",
   "scripts": {
     "build": "tsc",
