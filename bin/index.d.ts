@@ -5,11 +5,8 @@ export interface QwikEmotionProps {
         css: string;
     };
 }
-interface RootComponentProps {
-    emotion?: {
-        css: string;
-    };
-    [index: string | number | symbol]: any;
-}
-declare const createEmotionRoot: (Root: Component<RootComponentProps>, options: RenderToStringOptions, props: Record<string | symbol | number, any>) => Promise<Component<{}>>;
+declare const createEmotionRoot: (Root: Component<any>, options: RenderToStringOptions) => Promise<{
+    css: string;
+    ids: string[];
+}>;
 export default createEmotionRoot;
